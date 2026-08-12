@@ -104,7 +104,7 @@ $listeCompetences = $stmtComp->fetchAll(PDO::FETCH_ASSOC);
 
                             <div class="champ">
                                 <label>Lien</label>
-                                <input type="url" name="lien" value="<?= htmlspecialchars($proj['lien']) ?>">
+                                <input type="text" name="lien" value="<?= htmlspecialchars($proj['lien']) ?>">
                             </div>
 
                             <div class="actions-projet-admin">
